@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>XV Alejandra</title>
+  <meta name="description" content="Invitación digital a los XV de Alejandra" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <audio id="music" src="assets/carino.mp3" loop preload="auto"></audio>
+  <button class="music" id="musicBtn" aria-label="Reproducir música">♪ Música</button>
+
+  <header class="hero">
+    <div class="sparkles"></div>
+    <div class="hero-bg"></div>
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <p class="eyebrow">Save the Date</p>
+      <h1>Alejandra</h1>
+      <p class="xv">Mis XV</p>
+      <p class="date">24 · Julio · 2026</p>
+      <button class="enter" id="enterBtn">Toca para comenzar</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro reveal">
+      <p class="script-small">Con mucha ilusión</p>
+      <h2>quiero compartir contigo una noche inolvidable</h2>
+      <p>Hay momentos que se guardan para siempre en el corazón. Gracias por ser parte de este día tan especial.</p>
+    </section>
+
+    <section class="photo-section reveal">
+      <img src="assets/foto-puente.jpg" alt="Alejandra en sesión Save the Date" />
+      <div class="caption-card">
+        <span>Una historia comienza</span>
+        <h2>Alejandra</h2>
+        <p>Mis XV años</p>
+      </div>
+    </section>
+
+    <section class="countdown reveal">
+      <p class="eyebrow dark">Faltan</p>
+      <div id="countdown" class="timer">
+        <div><strong>00</strong><span>Días</span></div>
+        <div><strong>00</strong><span>Horas</span></div>
+        <div><strong>00</strong><span>Min</span></div>
+        <div><strong>00</strong><span>Seg</span></div>
+      </div>
+    </section>
+
+    <section class="details reveal">
+      <div class="detail-card">
+        <h2>Detalles del evento</h2>
+        <p><strong>Viernes 24 de julio de 2026</strong></p>
+        <p>7:30 p.m.</p>
+        <p>Sky Eventos · Paseo de los Leones</p>
+        <a class="btn" href="https://maps.app.goo.gl/x3DmYBuRQ6vodeej7" target="_blank" rel="noopener">Ver ubicación</a>
+      </div>
+      <img src="assets/lugar-evento.jpg" alt="Lugar del evento Sky Eventos" />
+    </section>
+
+    <section class="photo-grid reveal">
+      <img src="assets/foto-columpio.jpg" alt="Alejandra en columpio con Save the Date" />
+      <div class="info-panel">
+        <p class="eyebrow dark">Código de vestimenta</p>
+        <h2>Elegante</h2>
+        <p>Favor de evitar negro y plateado.</p>
+        <div class="line"></div>
+        <p class="eyebrow dark">Lluvia de sobres</p>
+        <p>Tu presencia es nuestro mejor regalo.</p>
+      </div>
+    </section>
+
+    <section class="actions reveal">
+      <h2>Confirma tu asistencia</h2>
+      <p>Será un honor compartir esta celebración contigo.</p>
+      <a class="btn primary" href="https://wa.me/528115642463?text=Hola%2C%20confirmo%20mi%20asistencia%20a%20los%20XV%20de%20Alejandra" target="_blank" rel="noopener">Confirmar por WhatsApp</a>
+      <a class="btn" href="https://drive.google.com/drive/folders/1eu53rZ0sMYERgPPQz-JWZGnCcP1EX_XO?usp=share_link" target="_blank" rel="noopener">Subir fotos al Drive</a>
+    </section>
+
+    <footer class="final reveal">
+      <p class="script-small">Gracias por acompañarme</p>
+      <h2>Alejandra</h2>
+      <p>Te esperamos</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
